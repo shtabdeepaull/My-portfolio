@@ -11,7 +11,7 @@ const Header = () => {
         <li><a href="">Skill</a></li>
     </>
     return (
-        <div class="navbar  bg-base-200">
+        <div class="navbar ">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn  btn-ghost lg:hidden">
@@ -19,9 +19,10 @@ const Header = () => {
                     </label>
                     <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         {menuItems}
+                        
                     </ul>
                 </div>
-                <h2 class="text-2xl">Shtabdee Paul</h2>
+                <h2 class="text-white text-3xl">Shtabdee Paul</h2>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
